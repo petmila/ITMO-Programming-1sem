@@ -1,8 +1,14 @@
-# My_programming_labs_1sem
+# My_programming_labs_1sem\n
 
-4. Forth lab_programming:
-Forth lab_programming. ID3v2
-Gets --filepath <name_of_file> and commands:
---show - prints all the information from frames
---get = <frame_name> - prints information form frame frame_name
---set = <frame_name>  --value = <frame_value> - rename or make a new frame called frame_name with the information frame_value
+1. Первая лабораторная\n
+Программа получает на вход название текстового файла (после команд) и одну или несколько команд:\n
+--lines -l - количество строк в тексте\n
+--words -w - количество слов в тексте\n
+--bytes -b - количество байт\n
+
+4. Четвертая лабораторная:\n
+ID3v2 стандарт\n
+Программа получает на вход название MP3 файла --filepath <название_файла> одну или несколько команд:\n
+--show - выводит всю информацию из фреймов\n
+--get = <frame_name> - выводит информацию из конкретного фрейма\n
+--set = <frame_name>  --value = <frame_value> - меняет информацию или создает новый фрейм\n
